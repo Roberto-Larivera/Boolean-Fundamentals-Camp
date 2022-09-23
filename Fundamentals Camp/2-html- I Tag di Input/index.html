@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html
+  <head>
+    <title>2-html</title>
+  </head>
+  <body>
+<h1>Registrazione Cliente</h1>
+<form class="" action="index.html" method="post">
+  <!-- Inserimento dati sensibili -->
+  <div>
+    <input type="text" name="nome" value="" placeholder="Nome"
+      required
+       minlength="2" maxlength="10">
+    <input type="text" name="cognome" value="" placeholder="Cognome"
+      required
+       minlength="2" maxlength="10">
+  </div>
+  <div>
+    <input type="radio" name="sesso" value="maschio"required/>Maschio
+    <input type="radio" name="sesso" value="femmina"required/>Femmina
+  </div>
+  <div>
+    <input type="date" name="datadinascita" value="" placeholder="Data di Nascita"required> Data & Luogo di Nascita
+  </div>
+
+  <!-- Codice indicatore luogo di nascita con le diverse regioni -->
+  <div>
+    <select name="scelta"required>
+
+      <option >Abruzzo</option>
+      <option >Basilicata</option>
+      <option >Calabria</option>
+      <option >Campania</option>
+      <option >Emilia Romagna</option>
+      <option > Friuli Venezia Giulia</option>
+      <option > Lazio</option>
+      <option >Liguria</option>
+      <option >Lombardia</option>
+      <option >Marche</option>
+      <option >Molise</option>
+      <option > Piemonte</option>
+      <option >Puglia</option>
+      <option >Sardegna</option>
+      <option >Sicilia</option>
+      <option >Toscana</option>
+      <option >Trentino Alto Adige</option>
+      <option >Umbria</option>
+      <option >Val d'Aosta</option>
+      <option >Veneto</option>
+      <option >Trento</option>
+      <option >Bolzano</option>
+    </select>
+  </div>
+  <div>
+    <input type="radio" name="età" value="- 18"required/><18
+    <input type="radio" name="età" value="+ = 18"required/>≥18
+  </div>
+
+  <!-- Codice email e password -->
+  <div>
+    <input type="email" name="email" value="" placeholder="Email"required>
+    <input type="password" name="password" value=""placeholder="Passord"
+      required
+       minlength="4" maxlength="9"title="Minimo 4 caratteri">
+  </div>
+
+  <!-- <input type="password" name="password" value="" required pattern=".{6,}" title="Minimo 6 caratteri"> -->
+
+  <div>
+    <input type="email" name="email" value="" placeholder="Conferma Email"required>
+    <input type="password" name="password" value=""placeholder="Conferma Passord"
+      required
+       minlength="4" maxlength="9"title="Minimo 4 caratteri"  >
+  </div>
+
+  <input type="checkbox" name="" value="" required> Accetta termini e condizioni
+
+  <!-- Codice per invio dati -->
+  <input type="submit" name="" value="Invia">
+
+</form>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,88 @@
+/* Gestione background */
+body{
+  background-image: url(./image/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Gestione riquadro principale */
+.principlae{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 70%;
+  height: 80%;
+  padding: 5% 8% 5% 8%;
+  margin: auto;
+  margin-top: 5%;
+  box-sizing: border-box;
+}
+
+/* Gestione Header */
+header > h1{
+  margin: 5px;
+}
+
+header{
+  text-align: center;
+  font-family:'Popins', sans-serif;
+  color: rgb(100, 216, 65);
+  margin: auto;
+  /* font-style: 'Medium 500'; */
+}
+
+figure > img{
+  width: 30%;
+}
+
+/* Gestione pulsanti prenotazioni */
+nav{
+  background-color: rgb(100,216,65);
+  padding: 10px;
+  text-align: center;
+}
+
+/* Gestione testi Lista monopattini "Main"*/
+article{
+  margin-bottom: 20px;
+}
+
+
+.nome-veicolo > h2{
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  display: inline;
+  font-weight: 600;
+}
+
+.distanza > p{
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0;
+
+}
+
+.distanza p:first-child:before{
+  content: "\27BC";
+}
+/* Gestione SINGOLA di ogni barra colorata "batteria1...2...3" */
+#batteria{
+  height: 25px;
+  width: 350px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#batteria2{
+  height: 25px;
+  width: 500px;
+  background-color: rgb(100, 216, 65);
+  border-radius: 5px;
+}
+
+#batteria3{
+  height: 25px;
+  width: 150px;
+  background-color: red;
+  border-radius: 5px;
+}

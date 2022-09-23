@@ -1,0 +1,26 @@
+
+.h2{
+color: DarkGoldenRod;
+
+}
+
+.h3{
+font-style: italic;
+
+}
+
+#developer{
+  text-align: center;
+}
+
+#imgdev{
+  text-align: center;
+}
+
+header{
+  background-color: lightgrey;
+}
+
+hr{
+  border-color: orange;
+}

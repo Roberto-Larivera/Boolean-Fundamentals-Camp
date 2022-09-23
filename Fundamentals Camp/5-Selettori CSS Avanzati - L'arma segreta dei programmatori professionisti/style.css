@@ -1,0 +1,23 @@
+
+
+header > div{
+  text-align: center;
+}
+
+main > div > h2{
+  color: DarkGoldenRod;
+
+}
+main > div > h3{
+  font-style: italic;
+
+
+}
+
+header{
+  background-color: lightgrey;
+}
+
+hr{
+  border-color: orange;
+}

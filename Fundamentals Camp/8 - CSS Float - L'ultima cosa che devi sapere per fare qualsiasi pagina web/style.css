@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Raleway', sans-serif;
+}
+
+.completo{
+  width: 95vw;
+  margin: auto;
+  position: relative;
+}
+/* Inzio header */
+
+.contenitore1{
+  height: 20vh;
+  position: relative;
+}
+.funzione1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.plus{
+  position: absolute;
+  top: 5vh;
+  font-weight: 600;
+  font-size: 30px;
+}
+.seleziona{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+}
+.simbolo{
+  color: CornflowerBlue;
+}
+.testo1{
+  position: absolute;
+  bottom: 0;
+  font-weight: 800;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+/* Fine Header */
+
+/* Inzio Main */
+main{
+  margin: auto;
+  width: 95vw;
+}
+
+main:after{
+  clear:both;
+  content: '';
+  display: table;
+}
+
+.blocco{
+  width: 15vw;
+  height: 28vh;
+  position: relative;
+  float: left;
+  margin: 0.4vw;
+}
+
+.nome_album{
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.numero_foto{
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  color: darkgrey;
+}
+
+.immagine{
+  background-position: center;
+  background-size: cover;
+  width: 15vw;
+  height: 20vh;
+}
+
+/* .im01{
+  background-image: url(https://www.tuscanypeople.com/wp-content/uploads/2021/07/spiaggia_sansone_elba.jpg);
+
+}
+.im02{
+  background-image: url(./image/B44FAB04-2447-4218-BF0D-8557E16B8B36.png);
+
+}
+.im03{
+  background-image: url(./image/B44FAB04-2447-4218-BF0D-8557E16B8B36.png);
+
+}
+.im04{
+  background-image: url(./image/B44FAB04-2447-4218-BF0D-8557E16B8B36.png);
+
+}
+.im05{
+  background-image: url(./image/B44FAB04-2447-4218-BF0D-8557E16B8B36.png);
+
+}
+.im06{
+  background-image: url(./image/B44FAB04-2447-4218-BF0D-8557E16B8B36.png);
+
+} */
+
+.im01, .im02, .im03, .im04, .im05, .im06{
+  background-image: url(https://www.tuscanypeople.com/wp-content/uploads/2021/07/spiaggia_sansone_elba.jpg);
+
+}

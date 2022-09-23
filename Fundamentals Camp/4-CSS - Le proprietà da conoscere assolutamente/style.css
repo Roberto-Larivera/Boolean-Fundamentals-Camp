@@ -1,0 +1,135 @@
+*{
+  box-sizing: content-box;
+
+  margin: 0;
+
+}
+
+hr{
+  margin-top: 5px;
+  color: green;
+  margin-bottom: 5px;
+  border-color: #FF3E96	;
+}
+body {
+  background-image: url(https://www.wallpapertip.com/wmimgs/40-405583_high-resolution-white-background-hd.jpg);
+  background-size: cover;
+
+  width: 75%;
+  margin: auto;
+
+
+}
+
+
+.header{
+  text-align: center;
+
+}
+
+.cerca{
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+.contenitore{
+  text-align: center;
+
+}
+.contenitore1{
+  text-align: center;
+
+}
+#notifica-numero{
+  color: white;
+  background-color: #FF3E96;
+  border-radius: 15px 50px;
+  margin: 10px;
+  padding: 2px;
+
+}
+ .numero {
+
+  font-family: 'Roboto', sans-serif;
+
+
+}
+.casellaemail{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.input{
+  width: 3,5%;
+  /* background-color: green; */
+  display: inline-block;
+
+}
+
+.mittente{
+  width: 22%;
+  /* background-color: red; */
+  display: inline-block;
+  text-align: left;
+}
+.oggetto{
+  width: 24%;
+  /* background-color: red; */
+  display: inline-block;
+  text-align: left;
+}
+
+.messaggio{
+  width:40%;
+  /* background-color: blue; */
+  display: inline-block;
+  margin-right: 1.2%;
+
+}
+.emailcompleta1
+ .messaggio::after{
+  content: "..."
+}
+.emailcompleta .messaggio::after{
+  content: "..."
+}
+
+.logo{
+  width: 100px;
+  vertical-align:middle;
+  text-align: left;
+}
+
+/* #profil{
+  width: 70px;
+  vertical-align:middle;
+  border-radius: 100px;
+  float: right;
+
+} */
+
+#gmail{
+  font-family:'Roboto', black;
+  font-size: 50px;
+  vertical-align:middle;
+}
+
+.emailcompleta{
+  background-color: rgba(180, 174, 169, 0.5);
+  border-radius: 100px;
+}
+
+.emailcompletaletta{
+  background-color: rgba(242, 234, 227, 0.5);
+  border-radius: 100px;
+}
+
+#by{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.footer{
+  text-align: center;
+}

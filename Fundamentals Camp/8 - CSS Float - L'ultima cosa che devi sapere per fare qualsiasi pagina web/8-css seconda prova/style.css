@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Raleway', sans-serif;
+}
+/* Controllo pagina totale ↧↧↧ */
+.contenitore{
+  padding: 50px;
+}
+
+/* Controllo testi Hadder ↧↧↧*/
+.add a{
+  font-size: 40px;
+  color: #3481d0;
+  text-decoration: none;
+}
+
+.titolo{
+  padding-bottom: 20px;
+  margin: 50px 0;
+  font-size: 40px;
+  font-weight: 800;
+  border-bottom: 1px solid lightgrey;
+}
+
+.titolo a{
+  float: right;
+  font-size: 20px;
+  color: #3481d0;
+  text-decoration: none;
+}
+
+/* Controllo album / testi album / foto ↧↧↧*/
+.album{
+  margin: 10px;
+  float: left;
+  width: calc(100% / 6 - 20px);
+}
+
+.album-image img{
+  width: 100%;
+}
+
+.album-titolo, .album-numero{
+  margin: 10px;
+  font-size: 20px;
+}
+
+.album-numero{
+  color: grey;
+}

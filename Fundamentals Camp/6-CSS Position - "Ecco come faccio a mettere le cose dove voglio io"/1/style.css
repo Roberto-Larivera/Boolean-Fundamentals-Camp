@@ -1,0 +1,39 @@
+.contenitore.verde{
+  height: 900px;
+  width: 1500px;
+  background: green;
+  border: 10px solid black;
+}
+
+.quadrato{
+  height: 600px;
+  width: 600px;
+  background: blue;
+  display: inline-block;
+  position: relative;
+}
+
+.cubo{
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+.a{
+
+}
+
+.b{
+  position:absolute;
+  top: 500px;
+  left: 500px;
+}
+
+.c{
+
+}
+
+.d{
+  position: relative;
+  left: 50px;
+}

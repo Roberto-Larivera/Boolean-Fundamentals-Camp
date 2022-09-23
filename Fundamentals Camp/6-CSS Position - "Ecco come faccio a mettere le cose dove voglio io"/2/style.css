@@ -1,0 +1,55 @@
+main{
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.contenitore{
+  background-position: center;
+  width: 1000px;
+  display: inline-block;
+}
+
+.quadro{
+  height: 370px;
+  width: 300px;
+  background: black;
+  position: relative;
+  display: inline-block;
+}
+
+.primo{
+  background-image: url(./image/pd1.jpg);
+}
+
+.secondo{
+  background-image: url(./image/pd2.jpg);
+}
+
+.terzo{
+  background-image: url(./image/pd3.jpg);
+}
+
+.offerta1{
+  position: absolute;
+  background: green;
+  right: 0px;
+}
+
+.offerta2{
+  position: absolute;
+  background: red;
+  right: 0px;
+}
+
+.cuore{
+  color: red;
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  display: none;
+}
+.quadro:hover .cuore{
+  display: inline-block;
+}
+
+/* lavoro sul cuore vedere correzzione
